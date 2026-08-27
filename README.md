@@ -6,6 +6,22 @@ Historically, craft excellence meant making teams more productive. That still ap
 
 ---
 
+## Industry direction
+
+Large engineering organizations are moving from **AI-assisted coding** toward **agentic software development** — agents taking on increasingly complete pieces of the software lifecycle, not just autocomplete.
+
+- **Microsoft** — transitioning from a traditional "software factory" to an **AI and agent factory**, with agents integrated across planning, development, review, security, operations, and modernization
+- **GitHub** — autonomous coding agents in standard developer workflows; tasks delegated from issues through implementation, testing, PR creation, and review; multiple agent providers supported in the same workflow
+- **Anthropic** — agent performance heavily influenced by the **harness and environment around the model**, including tests, task decomposition, context management, tooling, and structured handoffs
+
+The shift is bigger than writing code faster with AI. As models become more capable, engineering leverage increasingly comes from designing the environment they operate in:
+
+**better codebases → better context → better tools → better validation → better agent output**
+
+Codebase and harness design is therefore a form of engineering craft: optimize the system so both humans and agents can work effectively.
+
+---
+
 ## Harness & configuration
 
 A **harness** helps agent models read and act effectively. Improving it should use fewer tokens or be more efficient.
